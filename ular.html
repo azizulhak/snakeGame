@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake Game</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JS -->
+  <script src="ular.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Snake Game</h1>
+    <p id="score">Skor: 0</p>
+
+    <canvas id="game" width="800" height="600"></canvas>
+
+    <button id="restartBtn">Mulai Ulang</button>
+
+    <!-- 🎵 Suara -->
+    <audio id="bgMusic" src="assets/sound1.mp3" loop></audio>
+    <audio id="eatSound" src="assets/eat.mp3"></audio>
+    <audio id="gameOverSound" src="assets/gameover.mp3"></audio>
+  </div>
+</body>
+</html>

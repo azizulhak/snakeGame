@@ -1,0 +1,36 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+canvas {
+  background-color: #222;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #0f0;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: lime;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: greenyellow;
+  transform: scale(1.1);
+}
